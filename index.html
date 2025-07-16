@@ -1,29 +1,89 @@
-<!DOCTYPE html>
-<html lang="ar">
+<!DOCTYPE html><html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>Ahmed Max - أفلام</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <title>Ahmed Max - موقع أفلام</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background: #222;
+      padding: 1rem;
+      text-align: center;
+    }
+    .movie-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .movie-card {
+      background: #1c1c1c;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .movie-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: crimson;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    footer {
+      background: #222;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>🎬 Ahmed Max</h1>
-    <p>★ Designed by Ahmed Ayman ★</p>
+    <p>أفضل موقع أفلام عربي وأجنبي مترجمة بجودة عالية</p>
   </header>
-
   <main>
-    <section class="movies-section">
-      <h2>أفلام أجنبية</h2>
-      <div class="movies-grid" id="foreign-movies"></div>
-    </section>
-
-    <section class="movies-section">
-      <h2>أفلام عربية</h2>
-      <div class="movies-grid" id="arabic-movies"></div>
+    <section class="movie-grid">
+      <div class="movie-card">
+        <img src="https://i.imgur.com/8RKXAIV.jpg" alt="Fight Club">
+        <h2>Fight Club</h2>
+        <p>فيلم أجنبي - خيال نفسي</p>
+        <a href="https://vidsrc.to/embed/movie/550" class="btn" target="_blank">مشاهدة</a>
+      </div>
+      <div class="movie-card">
+        <img src="https://i.imgur.com/2kl23a3.jpg" alt="الفيل الأزرق 2">
+        <h2>الفيل الأزرق 2</h2>
+        <p>فيلم مصري - إثارة وتشويق</p>
+        <a href="https://vidsrc.to/embed/movie/619979" class="btn" target="_blank">مشاهدة</a>
+      </div>
+      <div class="movie-card">
+        <img src="https://i.imgur.com/tGbaZCY.jpg" alt="Inception">
+        <h2>Inception</h2>
+        <p>فيلم أجنبي - خيال علمي</p>
+        <a href="https://vidsrc.to/embed/movie/27205" class="btn" target="_blank">مشاهدة</a>
+      </div>
+      <div class="movie-card">
+        <img src="https://i.imgur.com/NgcUo9v.jpg" alt="كازابلانكا">
+        <h2>كازابلانكا</h2>
+        <p>فيلم مصري - أكشن</p>
+        <a href="https://vidsrc.to/embed/movie/700391" class="btn" target="_blank">مشاهدة</a>
+      </div>
     </section>
   </main>
-
-  <script src="js/main.js"></script>
+  <footer>
+    <p>© 2025 Ahmed Max. Designed by Ahmed Ayman.</p>
+  </footer>
 </body>
 </html>
