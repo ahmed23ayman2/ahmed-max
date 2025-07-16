@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Max - أفلام</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 Ahmed Max</h1>
+    <p>أفضل موقع أفلام عربي وأجنبي مترجمة بجودة عالية</p>
+  </header>  <main>
+    <section class="movie-grid">
+      <!-- مثال على فيلم -->
+      <div class="movie-card">
+        <img src="https://i.imgur.com/8RKXAIV.jpg" alt="Fight Club">
+        <h2>Fight Club</h2>
+        <p>فيلم أجنبي - خيال نفسي</p>
+        <a href="#" class="btn">مشاهدة</a>
+      </div><div class="movie-card">
+    <img src="https://i.imgur.com/2kl23a3.jpg" alt="الفيل الأزرق 2">
+    <h2>الفيل الأزرق 2</h2>
+    <p>فيلم مصري - إثارة وتشويق</p>
+    <a href="#" class="btn">مشاهدة</a>
+  </div>
+
+  <!-- كرر العناصر لحد 50 فيلم -->
+  <!-- هضيف باقي الأفلام لو حبيت دلوقتي أو تدريجيًا -->
+
+</section>
+
+  </main>  <footer>
+    <p>© 2025 Ahmed Max. Designed by Ahmed Ayman.</p>
+  </footer>
+</body>
+</html>
